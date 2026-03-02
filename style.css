@@ -1,0 +1,31 @@
+.title {
+    font-size: 50px;
+    font-family: "Drakalligro";
+    color: aliceblue;
+    text-align: center;
+}
+
+.text {
+    font-family: "Drakalligro";
+    color: aliceblue;
+    text-align: center;
+}
+
+.text2 {
+    font-size: 50px;
+    font-family: "Drakalligro";
+    color: aliceblue;
+    text-align: center;
+}
+
+.container1 {
+    display: flex; 
+    justify-content: center; 
+    gap: 50px;   
+    text-align: center;
+}
+
+.project-item {
+    flex: 1;               
+    max-width: 300px;       
+}
