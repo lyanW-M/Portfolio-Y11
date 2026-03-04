@@ -3,6 +3,8 @@ body {
 }
 
 .heading {
+  margin-top: 80px; /* Adjust this number until the title clears the back button */
+    padding-top: 30px;
   background-color: #ff0000;
   text-align: center;
   color: white;
@@ -186,4 +188,12 @@ body {
   border-style: solid;
   border-radius: 20px;
   border-color: black;
+}
+
+.backbutton {
+  white-space: nowrap;
+  font-size: 35px;
+  font-family: "Press Start 2P";
+  color: rgb(0, 0, 0);
+  text-align: center;
 }
