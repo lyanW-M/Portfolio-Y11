@@ -1,0 +1,189 @@
+body {
+  background: #e2e2e2;
+}
+
+.heading {
+  background-color: #ff0000;
+  text-align: center;
+  color: white;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px  1px 0 black, 1px  1px 0 black;
+  font-family: 'Press Start 2P', cursive;
+  border-style: solid;
+  border-radius: 20px;
+  border-color: black;
+}
+
+.pokemon {
+  display: inline-block;
+}
+
+.pokemonNames h2 {
+  display: inline-block;
+  background-color: white;
+  color: #000000;
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+  padding: 20px 40px;
+  border-style: solid;
+  border-radius: 20px;
+  border-color: black;
+}
+
+.pokemonNames {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ff0000;
+  border-style: solid;
+  border-radius: 20px;
+  border-color: black;
+}
+
+.mid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 50px;
+}
+
+.mid img {
+  width: 450px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000000;
+  background-color: white;
+  font-family: 'Press Start 2P', cursive;
+  padding: 20px 40px;
+  border-style: solid;
+  border-radius: 20px;
+  border-color: black;
+  margin: 20px;
+}
+
+.typing {
+  display: flex;
+  justify-content: center;
+  column-gap: 100px;
+  align-items: center;
+}
+
+.typing h3 {
+  color: #000000;
+  font-family: 'Press Start 2P', cursive;
+  padding: 20px 40px;
+  border-style: solid;
+  border-radius: 20px;
+  border-color: black;
+  margin: 20px;
+}
+
+.grass {
+  background-color: #78C850;
+}
+
+.poison {
+  background-color: #A040A0;
+}
+
+.fire {
+  background-color: #F08030;
+}
+
+.water {
+  background-color: #6890F0;
+}
+
+.bug {
+  background-color: #A8B820;
+}
+
+.normal {
+  background-color: #A8A878;
+}
+
+.electric {
+  background-color: #F8D030;
+}
+
+.ground {
+  background-color: #E0C068;
+}
+
+.fighting {
+  background-color: #C03028;
+}
+
+.psychic {
+  background-color: #F85888;
+}
+
+.rock {
+  background-color: #B8A038;
+}
+
+.ghost {
+  background-color: #705898;
+}
+
+.ice {
+  background-color: #98D8D8;
+}
+
+.dragon {
+  background-color: #7038F8;
+}
+
+.flying {
+  background-color: #A890F0;
+}
+
+.data {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: flex-start;
+  text-align: center;
+  height: 180px;
+  column-gap: 20px;
+}
+
+.data h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: #000000;
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+  padding: 20px 40px;
+  border-style: solid;
+  border-radius: 20px;
+  border-color: black;
+}
+
+.description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ff0000;
+  border-style: solid;
+  border-radius: 20px;
+  border-color: black;
+  margin-top: 100px;
+}
+
+.description h3 {
+  display: inline-block;
+  background-color: white;
+  color: #000000;
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+  padding: 20px 40px;
+  border-style: solid;
+  border-radius: 20px;
+  border-color: black;
+}
