@@ -41,3 +41,10 @@
     width: 200px;
     height: 200px;
 }
+
+.code {
+  display: flex;
+  align-items: center; 
+  gap: 20px;
+  padding-bottom: 50px;
+}
