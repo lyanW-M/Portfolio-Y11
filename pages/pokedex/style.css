@@ -141,6 +141,10 @@ body {
   background-color: #A890F0;
 }
 
+.fairy {
+  background-color: pink;
+}
+
 .data {
   display: flex;
   flex-wrap: wrap;
@@ -189,9 +193,17 @@ body {
 }
 
 .backbutton {
+  display: inline-block;
+  border-radius: 30px;
+  padding: 10px 30px;
+  background-color: transparent;
   white-space: nowrap;
   font-size: 35px;
   font-family: "Press Start 2P";
   color: rgb(0, 0, 0);
   text-align: center;
+}
+
+.backbutton:hover {
+  background-color: rgb(255, 0, 0);
 }

@@ -52,6 +52,10 @@
 }
 
 .backbutton {
+    display: inline-block;
+    border-radius: 30px;
+    padding: 10px 30px;
+    background-color: transparent;
     position: fixed;
     white-space: nowrap;
     font-size: 35px;
@@ -60,3 +64,6 @@
     text-align: center;
 }
 
+.backbutton:hover {
+    background-color: brown;
+}
