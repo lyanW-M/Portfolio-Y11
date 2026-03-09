@@ -12,13 +12,21 @@
 }
 
 .links {
+    display: inline-block;
+    border-radius: 30px;
+    padding: 10px 30px;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
     padding-bottom: 25px;
     white-space: nowrap;
     font-size: 50px;
     font-family: "Drakalligro";
-    color: aliceblue;
     text-align: center;
     margin-top: 30px;
+}
+
+.links:hover {
+    background-color: aqua;
 }
 
 .container1 {
@@ -48,3 +56,8 @@
   gap: 20px;
   padding-bottom: 50px;
 }
+
+.line {
+    padding-top: 30px;
+}
+
